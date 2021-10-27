@@ -1,0 +1,85 @@
+body{
+    background-color:#EFEFEF;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    font-size: 76px;
+    color:#5E5E5E;
+    text-align: center;
+}
+h1:hover{
+    color: #171717;
+    transition: .2s
+}
+a{ text-decoration: none;}
+form{
+    text-align:center;
+
+}
+input[type=text] {
+ width: 400px;
+ height: 35px;
+ background-color: #EFEFEF;
+ border: solid #5E5E5E 2px ;
+}
+input[type=text]:hover{
+    border-color: #171717;
+}
+input[type=submit] {
+    height: 35px;
+    width: 50px;
+    background:#5E5E5E;
+    border:none;
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5%;
+}
+input[type=submit]:hover{
+    background-color: #171717;
+    transition: .2s
+}
+input[placeholder]{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    color:#5E5E5E
+}
+input[placeholder]:hover{
+    color: #171717;
+    transition: .2s
+}
+
+
+/* 
+=================================================
+Bookmarks
+=================================================
+*/
+.bookmarks{
+    text-align: center;
+    font-size: 50px;
+}
+.bookmarks i{
+    color:#5E5E5E;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+i:hover{
+    color:#171717;
+    transition: .2s
+}
+
+/* 
+=================================================
+Clock
+=================================================
+*/
+#clock{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    text-align: center;
+}
